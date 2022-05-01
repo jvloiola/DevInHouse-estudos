@@ -1,0 +1,113 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+header .headerTop {
+  display: flex;
+  background-color: #6e182c;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-right: 15px;
+  margin-top: 0;
+}
+header .headerTop .social {
+  display: inline-block;
+  padding: 5px;
+}
+header .headerTop .social .social-small {
+  width: 20px;
+}
+header .logo {
+  width: 190px;
+  height: 120px;
+  padding: 5px;
+}
+header .headerBody {
+  background-color: #d1d3d4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .headerBody .logo {
+  display: flex;
+  justify-content: center;
+}
+header .headerBody .nomeLogo {
+  width: 300px;
+  height: 100px;
+}
+header .headerBody #logoMarca {
+  width: 100px;
+}
+header .headerFooter {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px 20px 40px;
+  background-color: #006940;
+}
+
+section {
+  padding: 230px 20px 0px 20px;
+}
+section .newsFutebol {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+section .card {
+  border: 1px solid gray;
+  border-radius: 10%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+section .card img {
+  border-radius: 8px;
+  width: 300px;
+  height: auto;
+  justify-self: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer .left img {
+  width: 250px;
+}
+footer .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+footer .center li {
+  margin-top: 10px;
+}
+footer .right {
+  display: flex;
+  flex-direction: column;
+}
+footer .right #name {
+  margin-bottom: 5px;
+}
+footer .right #e-mail {
+  margin-bottom: 5px;
+}
+footer .right #text {
+  width: 300px;
+  height: 80px;
+}
+footer button {
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  background-color: #006940;
+}
+
+/*# sourceMappingURL=index.css.map */

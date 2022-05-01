@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+.header{
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	text-align: center;
+	backdrop-filter: blur(10px);
+	display: flex;
+	align-items: center;
+}
+
+
+
+.title{
+	display: inline-block;
+	font-family: 'Syne Mono';
+	font-size: 50px;
+	
+	color: rgba(0, 0, 0, 0.5);
+	
+}
+
+.menu{
+	position: fixed;
+	top: 40px;
+	right: 20px;
+
+	
+}
+
+.paragraph{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Hubballi';
+    font-size: large;
+    font-size: xx-large;
+}
+
+body{
+    background-image: url("/exercicio_1/images/Leuven-Rodape-03.jpg");
+}
+
+.section{
+	margin-top: 150px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.icon{
+    border: 1px black;
+    border-style:dotted;
+    border-radius: 45%;
+    padding: 10px;
+		margin: 20px;
+}

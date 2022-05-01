@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+	<title>Viagem Certa</title>
+</head>
+
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="./imagens/logo.png" width="45px" alt=""> Viagem Certa</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+				aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Destinos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Hotéis</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Lista de viagens</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<div class="input-group">
+						<span class="input-group-text">Qual seu próxmo destino?</span><br>
+						<input type="text" aria-label="First name" class="form-control">
+						<span class="input-group-text">Quando pretende partir?</span>
+						<input type="date" aria-label="Last name" class="form-control">
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<!--style="padding-top: 80px;display:flex; flex-direction: row; flex-wrap: wrap; justify-content:space-evenly"-->
+	<section style="padding-top: 80px;">
+		<div class="row ">
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/Marina_de_Dubai.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Dubai</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Dubai</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/dubai2.webp" alt="">
+								<p>Dubai (em árabe: دبيّ, Dubayy) é a maior cidade e emirado de mesmo nome dos Emirados
+									Árabes Unidos (uma federação de monarquias absolutas hereditárias árabes).[1] O
+									Emirado de Dubai está localizado na costa do golfo Pérsico, sendo um dos sete
+									emirados que compõem o país. Dubai é o emirado mais populoso entre os sete emirados,
+									com aproximadamente 2 262 000 habitantes. Está localizada ao longo da costa sul do
+									golfo Pérsico na península Arábica na Ásia. O município muitas vezes é chamado de
+									Cidade de Dubai para diferenciá-lo do emirado homônimo. A cidade é conhecida
+									mundialmente pela sua economia extremamente desenvolvida e por seus enormes
+									arranha-céus e largas avenidas. </p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/chapada_diamantina.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Chapa Diamantina</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+					Saiba Mais!
+				</button>
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Chapada Diamantina</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/chapada2.jpg" alt="">
+								<p>
+									Chapada Diamantina é uma região de serras, protegida na categoria de parque nacional
+									, situada no centro do estado brasileiro da Bahia, 
+									onde nascem quase todos os rios das bacias do Paraguaçu, 
+									do Jacuípe e do Rio de Contas. Estas correntes de águas brotam nos cumes e deslizam pelo relevo em belos regatos, 
+									despencam em borbulhantes cachoeiras e formam transparentes piscinas naturais. 
+									O parque nacional é administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/india.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Índia</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">India</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/india2.jpg" alt="">
+								<p>Índia (pronúncia em português: [ˈĩd͡ʒia]; em hindi: भारत, Bhārat, pronunciado: [ˈbʱaːrət̪]; 
+									em inglês: India, pronunciado: [ˈɪndiə]), oficialmente denominada República da Índia (em hindi: भारत गणराज्य, Bhārat Gaṇarājya; em inglês: Republic of India),
+									 é um país da Ásia Meridional. É o segundo país mais populoso, o sétimo maior em área geográfica e a democracia mais populosa do mundo. Delimitada ao sul pelo Oceano Índico, 
+									 pelo mar da Arábia a oeste e pelo golfo de Bengala a leste, a Índia tem uma costa com 7 517 km de extensão.[11] O país faz fronteira com Paquistão a oeste;[a] China, 
+									 Nepal e Butão ao norte e Bangladesh e Mianmar a leste. Os países insulares do Oceano Índico — Sri Lanka e Maldivas — estão localizados bem próximo da Índia.  </p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero Comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/japao.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Japão</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Japão</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/japao2.jpg" alt="">
+								<p>Japão (em japonês: 日本; romaniz.: Nihon, Nippon ou, arcaicamente, Jippon; oficialmente 日本国, 
+									Sobre este somNippon-koku (ajuda·info) ou koku, tradução literal: 
+									Estado do Japão) é um país insular da Ásia Oriental. 
+									Localizado no Oceano Pacífico, a leste do Mar do Japão, da República Popular da China, 
+									da Coreia do Norte, da Coreia do Sul e da Rússia, se estendendo do Mar de Okhotsk, no norte, 
+									ao Mar da China Oriental e Taiwan, ao sul. Os caracteres que compõem seu nome significam "Origem do Sol", 
+									razão pela qual o Japão é às vezes identificado como a "Terra do Sol Nascente".  </p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar!</button>
+								<button type="button" class="btn btn-primary">Quero Comprar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/lima_cusco.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Lima + Cusco</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Lima + Cusco</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/cusco2.jpg" alt="">
+								<p>
+									Japão (em japonês: 日本; romaniz.: Nihon, Nippon ou, arcaicamente, Jippon; oficialmente 日本国, 
+									Sobre este somNippon-koku (ajuda·info) ou koku, tradução literal: Estado do Japão) é um país insular da Ásia Oriental. 
+									Localizado no Oceano Pacífico, a leste do Mar do Japão, da República Popular da China, da Coreia do Norte, da Coreia do Sul e da Rússia, 
+									se estendendo do Mar de Okhotsk, no norte, ao Mar da China Oriental e Taiwan, ao sul. 
+									Os caracteres que compõem seu nome significam "Origem do Sol", razão pela qual o Japão é às vezes identificado como a "Terra do Sol Nascente".  
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quer Comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/noronha.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Fernando de Noronha</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Fernando de Noronha</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/noronha2.png" alt="">
+								<p>
+									Fernando de Noronha é um arquipélago brasileiro do estado de Pernambuco. 
+									Formado por 21 ilhas, ilhotas e rochedos de origem vulcânica, 
+									ocupa uma área total de 26 km² — dos quais 17 km² são da ilha principal — e se situa no Oceano Atlântico a nordeste do Brasil continental, 
+									distando 545 km da capital pernambucana, Recife. 
+									O centro comercial da ilha é o núcleo urbano de Vila dos Remédios. 
+									A administração do Parque Nacional está atualmente a cargo do Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero Compar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens//tailandia.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Tailandia</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Tailandia</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/tailandia2.jpg" alt="">
+								<p>
+									Tailândia, oficialmente Reino da Tailândia (em tailandês: ราชอาณาจักรไทย; romaniz.: Ratcha Anachak Thai, pronunciado: [râːtɕʰa-ʔaːnaːtɕɑ̀k-tʰɑj]), 
+									anteriormente conhecida como Sião (em tailandês: สยาม) é um estado soberano no centro da península da Indochina, 
+									no Sudeste asiático. É limitado a norte por Mianmar e Laos, a leste por Laos e Camboja, 
+									a sul pelo Golfo da Tailândia e pela Malásia, e a oeste pelo Mar de Andamão e pela extremidade sul de Mianmar. 
+									Suas fronteiras marítimas incluem o Vietnã, no Golfo da Tailândia, para o sudeste; 
+									e a Indonésia e a Índia no mar de Andamão, a sudoeste. 
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero Comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagens_viagens/roma_paris.webp" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Roma + Paris</h5>
+				<p class="card-text">Pacote de 5 ou 7 diárias + Aéreo!!!</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop8">
+					Saiba Mais!
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false"
+					tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img width="470px" height="300px" src="./imagens_viagens/paris2.jpg" alt="">
+								<p>
+									Paris (pronúncia em francês: ​[paʁi] (Sobre este somescutar (ajuda·info))) 
+									é a capital e a mais populosa cidade da França, com uma população estimada em 2020 
+									de 2 148 271 habitantes em uma área de 105 quilômetros quadrados. 
+									Desde o século XVII, Paris é um dos principais centros de finanças, diplomacia, 
+									comércio, moda, ciência e artes da Europa. A cidade de Paris é o centro e sede de governo da 
+									região administrativa de Ilha de França, que tem uma população estimada em 2020 de 12 278 210 
+									habitantes, ou cerca de 18% da população da França. Em 2017, a região de Paris teve um 
+									PIB de 709 bilhões de euros. De acordo com a Pesquisa de Custo de Vida da Economist 
+									Intelligence Unit em 2018, Paris era a segunda cidade mais cara do mundo, atrás apenas da 
+									Singapura e à frente de Zurique, Hong Kong, Oslo e Genebra. / <br>
+									Roma (em italiano: Roma [ˈroːma] (Sobre este somescutar (ajuda·info))) é a capital da Itália 
+									e também da região do Lácio, além de ser o centro da Cidade Metropolitana de Roma e de 
+									uma comuna especial. Com 2.860.009 residentes em 1.285 km², Roma é a comuna mais 
+									populosa do país e a terceira cidade mais populosa da União Europeia. 
+									A Cidade Metropolitana de Roma, com uma população de 4.355.725 habitantes, 
+									é a cidade metropolitana mais populosa da Itália e sua área metropolitana 
+									é a terceira mais populosa do país. A cidade está localizada na porção 
+									centro-oeste da Península Itálica, ao longo das margens do rio Tibre. 
+									A Cidade do Vaticano (o menor país do mundo) é um país independente dentro dos 
+									limites da cidade de Roma, o único exemplo existente de um país dentro de uma cidade no mundo. 
+									Roma é muitas vezes referida como a "Cidade das Sete Colinas" devido à sua localização geográfica,
+									 e também como a "Cidade Eterna", por conta de sua longa história. Roma é geralmente 
+									 considerada o "berço da cultura e da civilização ocidental e cristã" e o centro da 
+									 Igreja Católica.
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+								<button type="button" class="btn btn-primary">Quero Comprar!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<footer style="">
+		<div class="contact-area">
+			<div class="container">
+				<div class="row">
+					<div style="" class="col-md-12">
+						<h3 class="main-titl">Entre em contato conosco!</h3>
+					</div>
+					<div class="col-md-4">
+						<p><span class="contact-file">Ligue para:</span> (21) 9999-999</p>
+						<p><span class="contact-file">Horarios:</span>8:00 as 19:00</p>
+					</div>
+					<div class="col-md-4">
+						<p><span class="contact-file">Envie um e-mail:</span> contato@viagemcerta.com.br</p>
+						<p><span class="contact-file">Endereco:</span> Av. da Boa Viagem, s/n</p>
+					</div>
+					<div class="col-md-4">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+	
+</html>
+
+
+
